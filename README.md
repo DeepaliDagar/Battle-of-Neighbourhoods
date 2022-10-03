@@ -14,4 +14,12 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 9) avg_glucose_level: average glucose level in blood
 10) bmi: body mass index
 11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
-12) stroke: 1 if the patient had a stroke or 0 if not
+12) stroke: 1 if the patient had a stroke or 0 if not *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
+
+## Model
+The data has been trained by using KNN. 
+The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point. While it can be used for either regression or classification problems, it is typically used as a classification algorithm, working off the assumption that similar points can be found near one another.
+
+# Conclusion
+Accuracy achieved is 97%.
+
